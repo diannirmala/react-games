@@ -1,0 +1,40 @@
+.aside {
+  position: sticky;
+  top: 86px;
+  align-self: start;
+  padding: 8px 8px 14px;
+}
+
+.aside h3 {
+  margin: 10px 8px 12px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.genre-list {
+  display: grid;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.genre {
+  text-align: left;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.genre:hover {
+  background: var(--panel);
+  border-color: var(--border);
+}
+
+.genre.active {
+  background: var(--panel);
+  border-color: var(--border);
+  opacity: 1;
+}

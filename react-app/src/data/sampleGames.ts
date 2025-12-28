@@ -1,0 +1,68 @@
+import { Game } from "../types";
+
+export const sampleGames: Game[] = [
+  {
+    id: 101,
+    name: "Grand Theft Auto V",
+    background_image: "https://picsum.photos/seed/gta/900/520",
+    metacritic: 92,
+    platforms: ["pc", "playstation", "xbox"],
+    genreIds: [1, 2],
+  },
+  {
+    id: 102,
+    name: "The Witcher 3: Wild Hunt",
+    background_image: "https://picsum.photos/seed/witcher/900/520",
+    metacritic: 92,
+    platforms: ["pc", "playstation", "xbox", "nintendo"],
+    genreIds: [2, 3],
+  },
+  {
+    id: 103,
+    name: "Portal 2",
+    background_image: "https://picsum.photos/seed/portal2/900/520",
+    metacritic: 95,
+    platforms: ["pc", "playstation", "xbox"],
+    genreIds: [6],
+  },
+  {
+    id: 104,
+    name: "Tomb Raider",
+    background_image: "https://picsum.photos/seed/tombraider/900/520",
+    metacritic: 86,
+    platforms: ["pc", "playstation", "xbox"],
+    genreIds: [1, 2],
+  },
+  {
+    id: 105,
+    name: "Hades",
+    background_image: "https://picsum.photos/seed/hades/900/520",
+    metacritic: 93,
+    platforms: ["pc", "playstation", "xbox", "nintendo"],
+    genreIds: [1, 5],
+  },
+  {
+    id: 106,
+    name: "Forza Horizon",
+    background_image: "https://picsum.photos/seed/forza/900/520",
+    metacritic: 90,
+    platforms: ["xbox", "pc"],
+    genreIds: [8],
+  },
+  {
+    id: 107,
+    name: "Civilization VI",
+    background_image: "https://picsum.photos/seed/civ6/900/520",
+    metacritic: 88,
+    platforms: ["pc", "playstation", "xbox", "nintendo", "ios"],
+    genreIds: [7],
+  },
+  {
+    id: 108,
+    name: "Stardew Valley",
+    background_image: "https://picsum.photos/seed/stardew/900/520",
+    metacritic: 89,
+    platforms: ["pc", "playstation", "xbox", "nintendo", "ios", "android"],
+    genreIds: [5],
+  },
+];
