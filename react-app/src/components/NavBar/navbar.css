@@ -7,9 +7,12 @@
   align-items: center;
   gap: 12px;
   padding: 14px 24px;
+
   backdrop-filter: blur(10px);
-  background: linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0));
+  background: color-mix(in srgb, var(--bg) 78%, transparent);
+  border-bottom: 1px solid var(--border);
 }
+
 
 .brand { display: flex; align-items: center; justify-content: center; }
 
@@ -70,3 +73,19 @@
 }
 
 .dot[data-on="true"]::after { left: 18px; }
+
+
+@media (max-width: 720px) {
+  .navbar {
+    grid-template-columns: 52px 1fr 52px;
+    padding: 12px 12px;
+  }
+
+  .toggle span:last-child {
+    display: none; /* sembunyikan teks "Dark/Light Mode" */
+  }
+
+  .search input {
+    height: 42px;
+  }
+}
